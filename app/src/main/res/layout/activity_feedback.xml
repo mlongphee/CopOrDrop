@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.copordrop.FeedbackActivity"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feedbackTitle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:ms_hint="Feedback Title"
+            app:ms_floatingLabelText="Select Feedback Title"
+            app:ms_thickness="1dp"
+            app:ms_arrowSize="16dp"
+            >
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feedbackDesc"
+            android:background="@drawable/input_outline"
+            android:layout_below="@+id/imageSelect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:hint="Write Feedback ..." />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:id="@+id/checkMark"
+        android:background="@drawable/check_mark"
+        android:layout_marginLeft="80dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Succesfully Sent"
+        android:id="@+id/success"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="130dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:id="@+id/feedbackSubmitButton"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

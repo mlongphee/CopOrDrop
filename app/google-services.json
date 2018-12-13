@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "462455861363",
+    "firebase_url": "https://cop-or-drop-56527.firebaseio.com",
+    "project_id": "cop-or-drop-56527",
+    "storage_bucket": "cop-or-drop-56527.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462455861363:android:8bedd80e6de28861",
+        "android_client_info": {
+          "package_name": "com.copordrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462455861363-0o31oisd4dujkntnopiripvppu122ese.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.copordrop",
+            "certificate_hash": "c45bb4999643611891634c998107099265def90c"
+          }
+        },
+        {
+          "client_id": "462455861363-4i56i4s8csi2ra536c7i84ddsdem526s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMTowP9pyQv7onbfk5Stx5m4G2zu1jeKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462455861363-4i56i4s8csi2ra536c7i84ddsdem526s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

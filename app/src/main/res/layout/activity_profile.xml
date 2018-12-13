@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.copordrop.ProfileActivity"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView10"
+            android:src="@drawable/ic_whatshot_red_24dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileEmail"
+            android:layout_alignLeft="@+id/profileBackground"
+            android:layout_alignStart="@+id/profileBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Favourites"
+                android:id="@+id/textView10"
+                android:layout_alignBottom="@+id/tableRow"
+                android:layout_alignLeft="@+id/tableRow"
+                android:layout_alignStart="@+id/tableRow"
+                android:layout_marginTop="2dp" />
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#929292"
+                android:nestedScrollingEnabled="false"
+                android:layout_below="@+id/profileEmail"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+            </TableRow>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/profileBackground"
+            android:background="@drawable/rsz_profile_back"
+            android:alpha="0.75" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mike Crowski"
+            android:id="@+id/profileName"
+            android:layout_below="@+id/profileImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="android@hotmail.com"
+            android:id="@+id/profileEmail"
+            android:layout_below="@+id/profileName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:textSize="14dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="24 Copped ● 19 Dropped"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="30dp"
+            android:text="Edit Profile"
+            android:id="@+id/editButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/profileEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cop_outline"
+            android:textColor="#ec3951" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="120dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/defualt"
+            android:id="@+id/profileImage"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </FrameLayout>
+
+</RelativeLayout>

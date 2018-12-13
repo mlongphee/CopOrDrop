@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_new" android:icon="@mipmap/ic_fiber_new_black_24dp"
+            android:title="New" />
+        <item android:id="@+id/nav_copped" android:icon="@android:drawable/star_big_off"
+            android:title="Copped" />
+        <item android:id="@+id/nav_popular" android:icon="@mipmap/ic_whatshot_black_24dp"
+            android:title="Popular" />
+        <item android:id="@+id/nav_profile" android:icon="@mipmap/ic_account_circle_black_24dp"
+            android:title="My Profile" />
+        <item android:id="@+id/nav_support" android:icon="@mipmap/ic_help_outline_black_24dp"
+            android:title="Support" />
+        <item android:id="@+id/nav_settings" android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item android:id="@+id/nav_feedback" android:icon="@mipmap/ic_feedback_black_24dp"
+            android:title="Send Feedback" />
+    </group>
+
+</menu>
