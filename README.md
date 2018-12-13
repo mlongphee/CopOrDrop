@@ -1,6 +1,6 @@
 # CopOrDrop
-A social app that allows users to rate newly released shoes while keeping up to date on what is released
-Here are some screenshots of the app:
+A social app that allows users to rate newly released shoes while keeping up to date on what is released. Here are some screenshots of the app:
+
 ![screenshot_2018-12-13-15-35-26](https://user-images.githubusercontent.com/36655160/49968851-09d1ff00-fef5-11e8-95c2-1e1a92a88a18.png)
 ![screenshot_2018-12-13-15-36-07](https://user-images.githubusercontent.com/36655160/49968859-10607680-fef5-11e8-8792-fbc8ee393aa3.png)
 ![screenshot_2018-12-13-15-36-30](https://user-images.githubusercontent.com/36655160/49968877-17878480-fef5-11e8-9f1b-f73cbe213151.png)
